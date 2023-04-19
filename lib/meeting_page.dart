@@ -28,7 +28,7 @@ class meeting_page extends StatelessWidget {
       ),
       body: Center(
         child: Padding(
-          padding: const EdgeInsets.fromLTRB(24, 18, 24, 0),
+          padding: const EdgeInsets.fromLTRB(0, 18, 0, 0),
           child: Column(
             children: [
               title1(),
