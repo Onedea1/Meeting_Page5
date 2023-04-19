@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:meeting_page5/const/colors.dart';
-import 'package:meeting_page5/gender_join.dart';
-import 'package:meeting_page5/next_button.dart';
-import 'package:meeting_page5/people_numb.dart';
-import 'package:meeting_page5/standard_resistor.dart';
-import 'package:meeting_page5/title1.dart';
-import 'package:meeting_page5/title2.dart';
+import 'package:meeting_page5/meeting_page/gender_join.dart';
+import 'package:meeting_page5/meeting_page/next_button.dart';
+import 'package:meeting_page5/meeting_page/people_numb.dart';
+import 'package:meeting_page5/meeting_page/standard_resistor.dart';
+import 'package:meeting_page5/meeting_page/title1.dart';
+import 'package:meeting_page5/meeting_page/title2.dart';
 
 class meeting_page extends StatelessWidget {
   const meeting_page({Key? key}) : super(key: key);
