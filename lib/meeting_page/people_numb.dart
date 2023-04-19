@@ -1,8 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:meeting_page5/const/colors.dart';
 
-class people_numb extends StatelessWidget {
+class people_numb extends StatefulWidget {
   const people_numb({Key? key}) : super(key: key);
+
+  @override
+  State<people_numb> createState() => _people_numbState();
+}
+
+class _people_numbState extends State<people_numb> {
 
   @override
   Widget build(BuildContext context) {
